@@ -1,0 +1,86 @@
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Codo a Codo</a>
+        <div class="navbar" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Desactivado</a>
+            </li>
+          </ul>
+
+            <form class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+      </nav>
+</head>
+
+<body>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 0.2rem;">
+        <section style="text-align: center;">
+           <div class="card">
+                <img src="img/html.png" width="350" height="200" class="img-responsive">
+                <div class="card-body">
+                    <h6 class="titulo">Titulo 1</h6>
+                    
+                        <small>
+                            <p class = "parrafo">Contenido de card</p>
+                            <footer class="text-muted" style="text-align: left;">Ultima actualizacion: 1</footer>
+                        </small>
+                </div>
+           </div>
+           
+        </section>
+    
+        <section style="text-align: center;">
+            <div class="card" >
+                <img src="img/css.jpg" width="350" height="200" class="img-responsive">
+                <div class="card-body">
+                <h6 class="titulo">Titulo 2</h6>
+                    <small>
+                        <p class = "parrafo"> Contenido de card</p>
+                        <footer class="text-muted" style="text-align: left;">Ultima actualizacion: 1</footer>
+                    </small>
+                </div>
+            </div>
+        </section>
+    
+        <section style="text-align: center;">
+            <div class="card" >
+                <img src="img/Bootstrap.jpg" width="350" height="200" class="img-responsive">
+                <div class="card-body">
+                    <h6 class="titulo">Titulo 3</h6>
+                    <small>
+                        <p class="parrafo">Contenido de card</p>
+                        <footer class="text-muted" style="text-align: left;">Ultima actualizacion: 1</footer>
+                    </small>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <div class="form-group">
+        <label for="usr">Email</label>
+        <input type="text" class="form-control" id="usr">
+      </div>
+      <div class="form-group">
+        <label for="pwd">Contraseña</label>
+        <input type="password" class="form-control" id="pwd">
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" value=""> Verificar</label>
+      </div>
+      <button type="button" class="btn btn-primary">Enviar</button>
+    </div>  
+</body>
